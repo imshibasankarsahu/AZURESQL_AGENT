@@ -1,13 +1,7 @@
 streamlit
-langchain
-langchain_groq
 sqlalchemy
 mysql-connector-python
 agno
-dotenv
-streamlit
-langchain
-langchain-community
-ollama
 pyodbc
 python-dotenv
+

@@ -9,7 +9,7 @@ from agno.tools.sql import SQLTools
 # -----------------------
 server = "sqlpjt.database.windows.net"
 database = "sqldb"
-username = "azureadmin@sqlpjt"
+username = "azureadmin"
 password = "Shiba@3048"
 
 # ✅ Build SQLAlchemy-style connection string
@@ -58,3 +58,4 @@ if st.button("Ask AI") and question.strip():
             st.write(response)
         except Exception as e:
             st.error(f"❌ Error: {e}")
+
